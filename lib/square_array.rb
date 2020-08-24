@@ -5,9 +5,8 @@ def square_array(array)
   new_array = []
  # counter = 0 
  while new_array.length < array.length do
-  array.length.times { |counter|
-  new_array = array[counter] ** 2 }
-  new_array
+  new_array[counter] = array[counter] ** 2 
+  counter += 1 
 end
 new_array
 end
