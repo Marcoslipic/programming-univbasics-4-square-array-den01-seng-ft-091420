@@ -4,5 +4,6 @@ def square_array(array)
   # your code here 
   new_array = []
   counter = 0 
-  array.length.times 
+  array.length.times { |counter|
+  
 end
